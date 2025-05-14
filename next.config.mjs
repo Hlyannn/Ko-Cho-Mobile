@@ -10,6 +10,9 @@ const nextConfig = {
     unoptimized: true,
   },
   devIndicators: false,
+  experimental: {
+    allowedDevOrigins: ['https://www.kochomobile.asia'],
+  },
 }
 
 export default nextConfig
